@@ -68,5 +68,7 @@ public class Main
         System.out.println(cs.getDescriptors());
         while((r = cs.getNextRow()) != null)
             System.out.println(Arrays.toString(r.fields) + r.error + "; " + r.errorMsg);
+
+        //Ciao come va?
     }
 }
